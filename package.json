@@ -1,0 +1,26 @@
+{
+  "name": "lamiaamoustafa.com",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiaMoustafa/portfolio.git"
+  },
+  "author": "Mia Moustafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiaMoustafa/portfolio/issues"
+  },
+  "homepage": "https://github.com/MiaMoustafa/portfolio#readme",
+  "dependencies": {
+    "4": "0.0.0",
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
