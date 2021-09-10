@@ -1,10 +1,14 @@
-{
-  "name": "lamiaamoustafa.com",
+{ "name": "website",
   "version": "1.0.0",
   "description": "portfolio site",
-  "main": "index.js",
+  "main": "index.html",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+   
   },
   "repository": {
     "type": "git",
@@ -18,9 +22,11 @@
   "homepage": "https://github.com/MiaMoustafa/portfolio#readme",
   "dependencies": {
     "4": "0.0.0",
-    "bootstrap": "^5.1.0"
+    "bootstrap": "^5.1.0",
+    "lite-server": "^2.6.1"
   },
   "devDependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.14.1"
   }
 }
