@@ -58,7 +58,7 @@ nav {
 }
 
 nav.black ul {
-    background: rgb(145, 69, 69);
+    background: $primaryColor;
 }
 
 nav ul li {
@@ -75,7 +75,7 @@ nav ul li a {
 .menu-icon {
     line-height: 60px;
     width: 100%;
-    background:#9F5959;
+    background: $primaryColor;
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
@@ -94,11 +94,11 @@ nav ul li a {
 
     nav ul {
           max-height: 0px;
-          background:#9F5959;
+          background: $primaryColor;
     }
 
     nav.black ul {
-        background:#9F5959;
+        background: $primaryColor;
     }
 
     .showing {
