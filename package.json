@@ -1,14 +1,13 @@
-{ "name": "website",
+{
+  "name": "website",
   "version": "1.0.0",
   "description": "portfolio site",
   "main": "index.html",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
-   
+    "build-css": "node-sass  scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,8 @@
   "dependencies": {
     "4": "0.0.0",
     "bootstrap": "^5.1.0",
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "sass": "^1.39.2"
   },
   "devDependencies": {
     "font-awesome": "^4.7.0",
