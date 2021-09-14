@@ -172,3 +172,46 @@ nav {
   cursor: pointer;
   color: #fff;
   display: none; }
+
+.ContactBox {
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  background-color: "Raleway", sans-serif; }
+  .ContactBox .row > div:first-child {
+    background-color: #9F5959; }
+  .ContactBox .firstBox {
+    width: 100%;
+    height: 80vh;
+    background-image: url("contactBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .ContactBox .firstBox h2 {
+      color: #fff; }
+  .ContactBox .secondBox {
+    width: 100%;
+    height: 80vh;
+    background-color: #f0b8b4;
+    padding: 30px 20px; }
+    .ContactBox .secondBox h2 {
+      color: #9F5959;
+      font-size: 2em;
+      text-transform: uppercase; }
+  .ContactBox .col-6 {
+    padding-right: 0;
+    padding-left: 0; }
+  .ContactBox .no-gutters {
+    margin-right: 0;
+    margin-left: 0; }
+  .ContactBox .btn {
+    background-color: #914545;
+    color: white;
+    margin-left: 50px;
+    padding: 10px 25px; }
+    .ContactBox .btn:hover {
+      background-color: white;
+      color: #914545;
+      border: 1px solid #914545; }
