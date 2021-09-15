@@ -1,10 +1,8 @@
 
-
-
 .ContactBox{
     width:100%;
     height:100vh;
-    padding-top: 60px;
+    padding-top: 120px;
     background-color:$primaryFont;
 
     .row > div:first-child {
@@ -59,5 +57,10 @@
             border: 1px solid $primaryColor;
         
         }
+    }
+}
+@media (min-width: 576px){
+    .container{
+        width: 100%;
     }
 }
