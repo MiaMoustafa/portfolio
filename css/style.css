@@ -11,6 +11,60 @@ body {
   width: 100%;
   height: 90px;
   background-color: #f0b8b4; }
+  .navbarLight ul li {
+    display: inline-block;
+    padding: 16px 40px; }
+    .navbarLight ul li a {
+      text-decoration: none;
+      color: #9F5959;
+      font-size: 16px; }
+      .navbarLight ul li a:hover {
+        color: #9F5959;
+        text-decoration: none; }
+  .navbarLight .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #9F5959; }
+  .navbarLight .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9F5959;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out; }
+  .navbarLight .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left; }
+  .navbarLight .fa .fa-bars {
+    color: #9F5959; }
+  .navbarLight .Navbar .menu-icon {
+    color: #9F5959;
+    background: #f0b8b4; }
+
+@media (max-width: 786px) {
+  .navbarLight .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px; }
+  .navbarLight nav ul {
+    max-height: 0px;
+    background: #f0b8b4;
+    padding-right: 0; }
+  .navbarLight nav.black ul {
+    background: #f0b8b4; }
+  .navbarLight .showing {
+    max-height: 34em; }
+  .navbarLight nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center; }
+  .navbarLight nav .menu-icon {
+    display: block; } }
 
 header {
   width: 100%;
@@ -182,7 +236,7 @@ nav {
     background-color: #9F5959; }
   .ContactBox .firstBox {
     width: 100%;
-    height: 80vh;
+    height: 75vh;
     background-image: url("contactBg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -193,7 +247,7 @@ nav {
       color: #fff; }
   .ContactBox .secondBox {
     width: 100%;
-    height: 80vh;
+    height: 75vh;
     background-color: #f0b8b4;
     padding: 30px 20px; }
     .ContactBox .secondBox h2 {
