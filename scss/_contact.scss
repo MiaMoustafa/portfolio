@@ -5,13 +5,9 @@
     padding-top: 120px;
     background-color:$primaryFont;
 
-    input ::placeholder{
-        color:#e0d3d3;
-        // font-size: 1.5em;
-      }
-
     .row > div:first-child {
-        background-color:#9F5959;
+        // background-color:#db8484;
+        background-color:$primaryColor;
 
     }
     .firstBox {
@@ -63,8 +59,16 @@
         
         }
     }
+    .form-group input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #d6baba;
+      }
+     .form-group textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #d6baba;
+      }
     
 }
+ 
+
 @media (min-width: 576px){
     .container{
         width: 100%;

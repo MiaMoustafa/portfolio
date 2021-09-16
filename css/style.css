@@ -11,6 +11,7 @@ body {
   width: 100%;
   height: 90px;
   background-color: #f0b8b4;
+  z-index: 100;
   position: fixed; }
   .navbarLight ul li {
     display: inline-block;
@@ -260,10 +261,8 @@ nav {
   height: 100vh;
   padding-top: 120px;
   background-color: "Raleway", sans-serif; }
-  .ContactBox input ::placeholder {
-    color: #e0d3d3; }
   .ContactBox .row > div:first-child {
-    background-color: #9F5959; }
+    background-color: #914545; }
   .ContactBox .firstBox {
     width: 100%;
     height: 75vh;
@@ -299,6 +298,12 @@ nav {
       background-color: white;
       color: #914545;
       border: 1px solid #914545; }
+  .ContactBox .form-group input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #d6baba; }
+  .ContactBox .form-group textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #d6baba; }
 
 @media (min-width: 576px) {
   .container {
