@@ -1,4 +1,4 @@
-$primaryColor: rgb(145, 69, 69);
+
 .Navbar
 {
     nav {
@@ -55,19 +55,3 @@ $primaryColor: rgb(145, 69, 69);
     }
 
 }
-.main{
-    padding-top: 120px;
-    overflow: hidden;
-    }
- 
-    .aboutSection{
-        overflow: hidden;
-        padding-top: 60px;
-        h2{
-            color: $primaryColor;
-        }
-    }
-    .content  h3{
-        color: $primaryColor;
-
-    }
