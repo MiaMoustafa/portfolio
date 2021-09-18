@@ -4,14 +4,10 @@ $(document).ready(function() {
     });
 });
 
-// Scrolling Effect
 
-// $(window).on("scroll", function() {
-//     if($(window).scrollTop()) {
-//           $('nav').addClass('black');
-//     }
-
-//     else {
-//           $('nav').removeClass('black');
-//     }
-// })
+function aos_init() {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  }
